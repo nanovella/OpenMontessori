@@ -31,10 +31,6 @@
                     <a class="nav-link" href="form.html" tabindex="-1" aria-disabled="true">Add a Material</a>
                   </li>
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
         </nav>
@@ -46,6 +42,46 @@
             </header>
             <main>
                 <h1>Database of Materials</h1>
+                <hr class="featurette-divider">
+                <p><b>How to use this database: </b> You can browse the database using the various filter options to find a material you want to use. 
+                Then click the provided Google Drive link. This link will open a new page. Here you click "make a copy" and it will open a copy of the 
+                document in your google drive (you may have to sign in first). Now you can modify the material and make it your own!
+                </p>
+                <hr class="featurette-divider">
+                <div id="filterRow" class="row">
+                    <div class="col">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-primary">Subject</button>
+                            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="sr-only"></span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Math</a>
+                                <a class="dropdown-item" href="#">ELA</a>
+                                <a class="dropdown-item" href="#">Practical Life</a>
+                                <a class="dropdown-item" href="#">Sensory</a>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-primary">Language</button>
+                            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="sr-only"></span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">English</a>
+                                <a class="dropdown-item" href="#">Spanish</a>
+                                <a class="dropdown-item" href="#">French</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>                                          
+                </div>
                 <div>
                     <table class="table table-striped">
                       <thead>
@@ -58,27 +94,41 @@
                       </tr>
                       </thead>
                       <tbody>
-                      <tr>
-                        <td>Sandpaper Letters</td>
-                        <td>Language</td>
-                        <td>English</td>
-                        <td>Ryan Begin</td>
-                        <td>https://drive.google.com/fake-drive-link1/</td>
-                      </tr>
-                      <tr>
-                        <td>Sandpaper Letters</td>
-                        <td>Language</td>
-                        <td>Spanish</td>
-                        <td>Jane Doe</td>
-                        <td>https://drive.google.com/fake-drive-link2/</td>
-                      </tr>
-                      <tr>
-                        <td>Africa Map</td>
-                        <td>Language</td>
-                        <td>English</td>
-                        <td>Ryan Begin</td>
-                        <td>https://drive.google.com/fake-drive-link3/</td>
-                      </tr>
+                        <tr>
+                            <td>Phonetic Cards: Bugs</td>
+                            <td>Language</td>
+                            <td>French</td>
+                            <td>Ed Sanford</td>
+                            <td>https://drive.google.com/fake-drive-link1/</td>
+                        </tr>
+                        <tr>
+                            <td>Africa Map</td>
+                            <td>Geography</td>
+                            <td>English</td>
+                            <td>Ryan Begin</td>
+                            <td>https://drive.google.com/fake-drive-link3/</td>
+                        </tr>
+                        <tr>
+                            <td>Grammar Symbol Cards</td>
+                            <td>Language</td>
+                            <td>Spanish</td>
+                            <td>Margarita Acosta</td>
+                            <td>https://drive.google.com/fake-drive-link1/</td>
+                        </tr>
+                        <tr>
+                            <td>Sandpaper Letters</td>
+                            <td>Language</td>
+                            <td>English</td>
+                            <td>Ryan Begin</td>
+                            <td>https://drive.google.com/fake-drive-link1/</td>
+                        </tr>
+                        <tr>
+                            <td>Sandpaper Letters</td>
+                            <td>Language</td>
+                            <td>Spanish</td>
+                            <td>Jane Doe</td>
+                            <td>https://drive.google.com/fake-drive-link2/</td>
+                        </tr>
                       </tbody>
                     </table>
                 </div>
