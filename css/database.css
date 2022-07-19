@@ -7,3 +7,8 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.titleImage {
+    width: 50vw;
+    aspect-ratio: auto;
+}
