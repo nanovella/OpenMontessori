@@ -1,0 +1,9 @@
+.main-box {
+    /* background-color: var(--om-light); */
+}
+
+.database-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

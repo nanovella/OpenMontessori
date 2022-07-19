@@ -1,0 +1,19 @@
+
+// Variable overrides first
+$primary: orange;
+$secondary: #e71fd7;
+
+$light: rgb(255, 210, 125);
+$dark: rebeccapurple;
+$danger: #be4fff;
+$success: orange;
+$info: aqua;
+
+$body-bg: #f5f5f5;
+
+
+$enable-shadows: true;
+$prefix: "om-";
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
